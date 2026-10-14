@@ -1,0 +1,58 @@
+[
+  {
+    "claim_id": "CLM-9001",
+    "claim_number": "CLM-2026-9001",
+    "policy_id": "POL-1001",
+    "policy_number": "AZ-2026-1001",
+    "customer_id": "CUST-0001",
+    "date_of_loss": "2026-06-10",
+    "reported_at": "2026-06-10T10:15:00Z",
+    "claim_type": "auto",
+    "status": "investigating",
+    "assigned_adjuster": {
+      "name": "Synthetic Adjuster One",
+      "email": "adjuster.one@example.com",
+      "phone": "202-555-0121"
+    },
+    "reserve_amount": 5000.00,
+    "paid_amount": 0.00,
+    "description": "Rear-end collision at intersection, minor damage to bumper",
+    "attachments": [
+      {"file_id": "F-2001", "filename": "damage1.jpg", "uploaded_at": "2026-06-10T10:20:00Z"}
+    ],
+    "history": [
+      {"timestamp": "2026-06-10T10:15:00Z", "actor": "system", "action": "reported", "note": "FNOL created"},
+      {"timestamp": "2026-06-12T09:00:00Z", "actor": "adjuster", "action": "assigned", "note": "Assigned to Synthetic Adjuster One"}
+    ],
+    "created_at": "2026-06-10T10:15:00Z",
+    "updated_at": "2026-06-12T09:00:00Z"
+  },
+  {
+    "claim_id": "CLM-9002",
+    "claim_number": "CLM-2026-9002",
+    "policy_id": "POL-1002",
+    "policy_number": "AZ-2026-1002",
+    "customer_id": "CUST-0002",
+    "date_of_loss": "2026-04-05",
+    "reported_at": "2026-04-05T09:00:00Z",
+    "claim_type": "home",
+    "status": "paid",
+    "assigned_adjuster": {
+      "name": "Synthetic Adjuster Two",
+      "email": "adjuster.two@example.com",
+      "phone": "202-555-0122"
+    },
+    "reserve_amount": 12000.00,
+    "paid_amount": 11850.00,
+    "description": "Water damage from burst pipe in kitchen",
+    "attachments": [
+      {"file_id": "F-2101", "filename": "invoice.pdf", "uploaded_at": "2026-04-06T11:00:00Z"}
+    ],
+    "history": [
+      {"timestamp": "2026-04-05T09:00:00Z", "actor": "system", "action": "reported", "note": "FNOL created"},
+      {"timestamp": "2026-04-20T12:00:00Z", "actor": "adjuster", "action": "payment", "note": "Payment of $11,850 issued"}
+    ],
+    "created_at": "2026-04-05T09:00:00Z",
+    "updated_at": "2026-04-20T12:00:00Z"
+  }
+]

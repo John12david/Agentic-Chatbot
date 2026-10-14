@@ -1,0 +1,28 @@
+[
+  {
+    "customer_id": "CUST-0001",
+    "policy_number": "AZ-2026-1001",
+    "first_name": "Synthetic",
+    "last_name": "Customer One",
+    "email": "customer.one@example.com",
+    "phone": "202-555-0101",
+    "address": "100 Example Street, Example City, CA 90000",
+    "date_of_birth": "1990-01-01",
+    "preferred_contact_method": "email",
+    "created_at": "2024-01-10T09:12:00Z",
+    "updated_at": "2026-06-01T08:00:00Z"
+  },
+  {
+    "customer_id": "CUST-0002",
+    "policy_number": "AZ-2026-1002",
+    "first_name": "Synthetic",
+    "last_name": "Customer Two",
+    "email": "customer.two@example.com",
+    "phone": "202-555-0102",
+    "address": "200 Example Street, Example City, TX 90000",
+    "date_of_birth": "1980-01-01",
+    "preferred_contact_method": "phone",
+    "created_at": "2025-03-22T14:20:00Z",
+    "updated_at": "2026-05-20T16:40:00Z"
+  }
+]

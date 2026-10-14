@@ -1,0 +1,8 @@
+# Streamlit: web UI framework — 1.45+ ships pre-built numpy wheels for Python 3.14
+streamlit==1.45.0
+
+# python-dotenv: load environment config from .env file
+python-dotenv==1.0.1
+
+# pytest: unit testing framework
+pytest==8.2.0
